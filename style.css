@@ -1,0 +1,433 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+    box-sizing: border-box;
+    
+
+    margin-bottom: -26px;
+}
+/* central box with all component */
+.main-1{
+    height: 200vh;
+    width: 100vw;
+    display: inherit;
+    background:cover;
+    background-image: url(./Bckground.png.jpg);
+    /* background:repeat;
+    background-repeat: repeat; */
+    /* background-color: rgb(0, 0, 0); */
+    
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color:transparent;
+}
+/* navbar with logo */
+.navbar{
+    height: 60px;
+    width: 100vw;
+    background-color: black;
+
+}
+/* .navbar h1{
+    background-color: yellow;
+    height: 20px;
+    width: 250px;
+    padding: 12px; */
+
+.navbar nav {
+    height: 20px;
+    width: 20px;
+background-color: blanchedalmond;
+float: right;
+}
+/* .navbar nav ul {
+    float:right ;
+
+} */
+.navbar  a {
+    text-decoration: none;
+    color:white;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  word-spacing: 20px;
+  margin-right: 90px;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  /* padding-bottom: 10px;
+  margin-bottom: 20px; */
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: -25px;
+  padding-bottom: 10px;
+  transition-duration: 500ms;
+  transition-delay: 111ms;
+  font-family: 'Lato', sans-serif;
+  opacity: 25px;
+  letter-spacing: 0.5px;
+}
+/* .logo21{
+    color: rgb(133, 167, 24);
+} */
+ .navbar a::after{
+    content: "";
+    height: 4px;
+    width: 80%;
+    background-color:white;
+    position: absolute;
+    left: 5px;
+    /* bottom: -2%; */
+    top: -6px;
+    right: 15px;
+    align-items: center;
+    bottom: 6px;
+    transition-delay: 1000ms;
+    transition-duration: 1000ms;
+ } 
+ 
+
+.navbar a:hover{
+    color:   rgb(133, 167, 24);
+    /* text-transform: uppercase; */
+    text-decoration: dashed;
+  transform: translateY(-5px);
+  text-shadow: solid black 1px;
+/* transition: all .1; */
+text-decoration:wavy;
+/* text-transform: uppercase; */
+/* -webkit-text-stroke: 8px  rgb(rgb(58, 8, 221)); */
+
+}
+.logo{
+    height: 50px;
+    width: 100vw;
+    /* background-color: yellow; */
+    padding-left: 8px;
+    padding-top: 16px;
+  color:rgb(133, 167, 24);
+  padding: 9px;
+}
+.navbar nav ul li{
+    
+margin: 0;
+padding: 0;
+
+
+}
+.logo1{
+    color: pink;
+    margin-top: 30px;
+    margin-left: 12px;
+}
+.logo1 :hover{
+    color: white;
+    font-weight: 500;
+}
+/* .logo h1{
+    color: rgb(133, 167, 24);
+} */
+
+.logo h1{
+    color:rgb(133, 167, 24);
+
+}
+
+.logo h1 :hover{
+    color: white;
+    font-weight: 500;
+}
+.log{
+    height: 32rem;
+    width: 400px;
+    background-color:black;
+    margin-left: 560px;
+    margin-top: 0px;
+    padding-left: 40px;
+    /* padding-top: 10px; */
+    margin-top: 120px;
+    color: white;
+    font-weight: 400;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 114px;
+    border: 2px solid  rgb(133, 167, 24)
+    
+}
+.navbar h1{
+    color:rgb(133, 167, 24);
+    transition-duration: 600ms;
+    transition-delay: 111ms;
+}
+.navbar h1:hover{
+    color:  white;
+    display: inline;
+}
+.login{
+    padding-left: 120px;
+    padding-top: 10px;
+    transition-duration: 600ms;
+    transition-delay: 111ms;
+    /* ryfhbc */
+   
+}
+.log h2::after{
+    content: "";
+    height: 2px;
+    width: 3.5%;
+    background-color: rgb(133, 167, 24);
+    position: absolute;
+    right: 90%;
+    top: 200px;
+    left: 48.2%;
+    text-align: center;
+    transition-duration: 1ms;
+    transition-delay: 10ms;
+
+display: inline;
+}
+.input:focus{
+    outline: none;
+}
+.input2:focus{
+    outline: none;
+}
+.log h2:hover::after{
+    content: "";
+    height: 3px;
+    width: 3.5%;
+    background-color:white;
+    position: absolute;
+    right: 90%;
+    top: 200px;
+    left: 48.2%;
+    text-align: center;
+opacity: 10px;
+
+}
+
+
+/* .log h2::after:hover{
+    content: "";
+    height: 2px;
+    width: 3.5%;
+    background-color: white;
+    position: absolute;
+    right: 90%;
+    top: 200px;
+    left: 48.2%;
+    text-align: center;
+    opacity: 5px,5px,5px,5px;
+    
+
+} */
+.login:hover{
+    color:rgb(133, 167, 24);
+    text-transform: capitalize;
+}
+.login form{
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+}
+.form label{
+    font-size: 200px;
+font-weight: 600;
+
+}
+.user{
+    padding-top: 98px;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    margin-left:-25px;
+    transition-duration: 600ms;
+  transition-delay: 111ms;
+    padding-bottom: 11.5px;
+    margin-right: 25px;
+    /* border: 2px solid rgb(133, 167, 24); */
+}
+.pass{
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    margin-left:-25px;
+    padding-bottom: 11.5px;
+    transition-delay: 1000ms;
+    transition-duration: 1000ms;
+    /* border: 2px solid rgb(133, 167, 24); */
+}
+.input{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    transition-duration: 600ms;
+  transition-delay: 111ms;
+    background-color: transparent;
+    border: solid 1px white;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 2px solid rgb(133, 167, 24);
+}
+.input2{
+    width: 250px;
+    height: 40px;
+    transition-duration: 600ms;
+  transition-delay: 111ms;
+    border-radius: 4px;
+    color: white;
+    background-color: transparent;
+    margin-left: 28px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 2px solid rgb(133, 167, 24);
+ 
+ 
+    font-size: 20px;
+}
+.sub{
+    height: 50px;
+    width: 120px;
+    margin-left: 90px ;
+    margin-top: 20px;
+    color: white;
+    background-color: transparent;
+    font-weight: 550;
+    font-size: 19px;
+    transition-delay: 10ms;
+    transition-duration: 800ms;
+    border:  2px solid rgb(133, 167, 24);
+}
+/* .sub::after{
+    content: "hello";
+    border-radius: 50%;
+} */
+.sub:hover{
+    background-color: white;
+    color:black ;
+    transition:all .1000;
+    border-radius: 10px;
+    font-weight: 700;
+    transform: translateY(-5px);
+    /* -webkit-text-stroke: 1px  rgb(133, 167, 24); */
+    text-shadow: 2px rgb(133, 167, 24);
+}
+
+.for{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px;
+}
+.sig{
+    color: white;
+text-decoration: none;
+margin-left: 2px;
+/* margin-bottom: 1px; */
+margin-right: 20px;
+margin-top: 19px;
+padding-top: 12px;
+}
+.for:hover{
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 700px;
+    transform: translateY(-5px);
+    color:   rgb(133, 167, 24);
+}
+.sig:hover{
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 1500px;
+    transform: translateY(-5px);
+    color:   rgb(133, 167, 24);
+}
+.input:hover{
+    background-color: white;
+    color: black;
+    /* font-weight: 600; */
+    border-radius: 10px;
+    transform: translateY(-5px);
+    border: 2px solid white;
+}
+.input2:hover{
+    background-color: white;
+    color: black;
+    /* font-weight: 600; */
+    /* transform: translateY(-5px); */
+    border: solid 2px white;
+}
+.follow{
+    height: 90px;
+    width: 400px;
+  
+    margin-top: 110px;
+    padding-top: 10px;
+    font-size: 39px;
+}
+.insta{
+    margin-top: 300px;
+    text-decoration: none;
+    color: white;
+    transition-duration: 600ms;
+    transition-delay: 111ms;
+    /* display: inline; */
+}
+.you{
+    color: white;
+    text-decoration: none;
+    margin-left: 90px;
+    transition-duration: 600ms;
+    transition-delay: 111ms;
+}
+.twi{
+    transition-duration: 600ms;
+    transition-delay: 111ms;
+ color: white;
+    text-decoration: none;
+    margin-left: 90px;
+}
+
+.insta:hover{
+  /* transform: translateY(-5px); */
+font-weight: 1000;
+color:   rgb(133, 167, 24);
+/* color: transparent; */
+   
+}
+
+.you:hover{
+    /* transform: translateY(5px); */
+    color:   rgb(133, 167, 24);
+     
+  }
+
+  
+.twi:hover{
+    /* transform: translateY(5px); */
+    color:   rgb(133, 167, 24);
+  }
+.log:hover{
+    /* transform: translateY(-500px,+1000px); */
+    border: 2px solid rgb(133, 167, 24);
+}
+/* .con{
+    content: "";
+    height: 2px;
+    width: 10px;
+    background-color: pink;
+    position: absolute;
+    left: 50%;
+    /* bottom: -2%; */
+    /* top: -4px;
+    right: 15px;
+} */
+
+
+
