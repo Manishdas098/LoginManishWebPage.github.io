@@ -29,7 +29,8 @@
     height: 60px;
     width: 100vw;
     /* background-color: none; */
-    -webkit-backgdrop-filter: blur(8px);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 
 }
 /* .navbar h1{
