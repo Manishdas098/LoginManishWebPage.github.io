@@ -28,7 +28,8 @@
 .navbar{
     height: 60px;
     width: 100vw;
-    background-color: blur;
+    /* background-color: none; */
+    -webkit-backgdrop-filter: blur(8px);
 
 }
 /* .navbar h1{
